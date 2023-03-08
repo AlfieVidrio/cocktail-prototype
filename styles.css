@@ -1,0 +1,29 @@
+body {
+    background-color: #03001c;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  h1 {
+    color: #b6eada;
+    text-align: center;
+  }
+  
+  #user-list {
+    margin: 0 auto;
+    max-width: 50rem;
+  }
+  
+  .user-entry {
+    background-color: #5b8fb9;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    color: #03001c;
+    transition: scale 100ms;
+  }
+  
+  .user-entry:hover {
+    outline: 3px solid #b6eada;
+    scale: 1.05;
+    cursor: pointer;
+  }
