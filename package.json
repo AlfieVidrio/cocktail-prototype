@@ -1,8 +1,8 @@
 {
-  "name": "cocktail",
+  "name": "cocktail-prototype",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/cocktail/",
+    "build": "vite build --base=/cocktail-prototype/",
     "preview": "vite preview",
     "deploy": "npm run build && gh-pages -d dist"
   },
@@ -18,12 +18,12 @@
   "main": "cocktail.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlfieVidrio/cocktail.git"
+    "url": "git+https://github.com/AlfieVidrio/cocktai-prototype.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlfieVidrio/cocktail/issues"
+    "url": "https://github.com/AlfieVidrio/cocktail-prototype/issues"
   },
-  "homepage": "https://github.com/AlfieVidrio/cocktail#readme"
+  "homepage": "https://github.com/AlfieVidrio/cocktail-prototype#readme"
 }
